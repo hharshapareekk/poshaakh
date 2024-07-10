@@ -5,7 +5,6 @@ Code Institute - Milestone Project 2 - Interactive Frontend Development
 OUT2FASHION is a mobile-first one-page web application that helps women stay stylish every day based on the clothing items they might need according to the weather forecast. The primary purpose of this web app is to inform the users about the daily weather forecast in a fun and interactive way and to serve as a guidance for shopping relevant clothing items for their outfit of the day - buy what you like but also what you need! The secondary purpose is to give fashion brands an additional chance to market their products by every-day brand exposure in hope of increasing the sales.
 
 The overall goal of the app is to turn a simple daily repetitive act of checking weather forecast to plan out the outfit of the day into a fun experience. Besides the weather forecast, the app informs the users about the new clothing products on the market which are only 1 click away.
-
 **IMPORTANT: This project is limited to 50 free API calls per day. The number is refreshed around 2.30 pm CET. If you click on a city and the app doesn't seem to display the content well, please check OUT2FASHION the next day again or after 2.30 pm CET.**
 
 ![App Showcase](readme-files/img-showcase.png)
