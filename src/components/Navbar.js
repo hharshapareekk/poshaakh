@@ -36,6 +36,17 @@ const Navbar = () => {
       </div>
       <div className="blog-link" ref={blogRef}>
         <Link to="/chat">Chat App</Link>
+        <ul className="links">
+        <li ref={li1}>
+          <Link to="/sustainable">Sustainable Shopping</Link>
+        </li>
+        <li ref={li2}>
+          <Link to="/about">About</Link>
+        </li>
+        <li ref={li3}>
+          <Link to="/gallery">Gallery</Link>
+        </li>
+      </ul>
       </div>
     </nav>
   );

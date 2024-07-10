@@ -8,8 +8,7 @@ const Footer = () => {
   useGsapFooterHeadline(footerHeadlineRef, footerRef);
 
   return (
-    <section className="footer wrapper " ref={footerRef}>
-      <h1 ref={footerHeadlineRef}>Hope you liked it!</h1>
+    <section className="footer-wrapper " ref={footerRef}>
       <p>© {new Date().getFullYear()} Team Dumbledore's Army .</p>
     </section>
   );
