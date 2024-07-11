@@ -5,11 +5,11 @@ import {
   useGsapShutterUnveil,
 } from "../hooks/gsap";
 
-import image1 from '../images/shoes-1.png';
 import image5 from '../images/gallery-2.png';
 import image3 from '../images/outfit-1.png';
 import image2 from '../images/outfit-2.png';
 import image4 from '../images/outfit-3.png';
+import image1 from '../images/shoes-1.png';
 
 
 const Hero = () => {

@@ -21,7 +21,7 @@ const images = [
     id: 3,
     src: image3,
     title: "Tree Planting Initiative",
-    category: "For every purchase, we plant a tree in your name. Earn 30 points and a special tree planting certificate. Help us reforest and restore natural habitats.",
+    category: "For every purchase above INR 1000, we plant a tree in your name. Earn 30 points and a special tree planting certificate. Help us reforest and restore natural habitats.",
   },
 ];
 

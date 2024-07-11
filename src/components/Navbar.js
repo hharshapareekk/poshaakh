@@ -35,16 +35,19 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="blog-link" ref={blogRef}>
-        <Link to="/chat">Chat App</Link>
+        <Link to="/chat">Group Chat</Link>
         <ul className="links">
         <li ref={li1}>
           <Link to="/sustainable">Sustainable Shopping</Link>
         </li>
         <li ref={li2}>
-          <Link to="/about">About</Link>
+          <Link to="/pinterest">Pinterest Suggestions</Link>
         </li>
         <li ref={li3}>
-          <Link to="/gallery">Gallery</Link>
+          <Link to="/">weather-to-wear</Link>
+        </li>
+        <li ref={li3}>
+          <Link to="/delivery">Delivery</Link>
         </li>
       </ul>
       </div>
