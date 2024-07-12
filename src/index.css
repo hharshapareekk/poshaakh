@@ -491,3 +491,124 @@ input[type="text"]:focus::placeholder {
   color: #333;
   letter-spacing: 0.1vw;
 }
+.ChatApp .section-title {
+  margin-left: 5vw;
+}
+.ChatApp p {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  width: -2%;
+  font-size: 1.2vw;
+  line-height: 1.5;
+  font:  "poppins", sans-serif;
+}
+.Create {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 10px;
+}
+
+.Create p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.upload-container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  margin: 10px auto;
+}
+
+.upload-area {
+  background-color: #fff;
+  padding: 30px;
+  border: 1px dashed #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.upload-area:hover {
+  border-color: #aaa;
+}
+
+.upload-area label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-size: 30px;
+  color: #666;
+}
+
+.upload-area i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+.upload-hint {
+  font-size: 20px;
+  color: #999;
+  margin-top: 10px;
+}
+
+.upload-preview {
+  margin-top: 40px;
+}
+
+
+.upload-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 400px;
+  font-size: 26px;
+}
+
+.upload-btn:hover {
+  background-color: #062908;
+}
+.large-container-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.large-container-row {
+  display: contents;
+}
+
+.large-container-card {
+  width: 450px;
+  height: 450px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom:30px;
+}
+
+.change-image-btn {
+  background-color: #ff0000;
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.change-image-btn:hover {
+  background-color: #7d0505;
+}

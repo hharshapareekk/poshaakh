@@ -45,7 +45,7 @@ const Navbar = () => {
           <Link to="/chat">Group Chat</Link>
         </li>
         <li ref={li2}>
-          <Link to="/pinterest">Pinterest Suggestions</Link>
+          <Link to="/create">Poshaakh Create</Link>
         </li>
         <li ref={li3}>
           <Link to="/">weather-to-wear</Link>
