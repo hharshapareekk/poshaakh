@@ -35,10 +35,14 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="blog-link" ref={blogRef}>
-        <Link to="/chat">Group Chat</Link>
+        <Link to="/sustainable">Sustainable Shopping</Link>
         <ul className="links">
+        <li ref={li3}>
+          <Link to="/delivery">Delivery</Link>
+        </li>
         <li ref={li1}>
-          <Link to="/sustainable">Sustainable Shopping</Link>
+          
+          <Link to="/chat">Group Chat</Link>
         </li>
         <li ref={li2}>
           <Link to="/pinterest">Pinterest Suggestions</Link>
@@ -46,9 +50,7 @@ const Navbar = () => {
         <li ref={li3}>
           <Link to="/">weather-to-wear</Link>
         </li>
-        <li ref={li3}>
-          <Link to="/delivery">Delivery</Link>
-        </li>
+        
       </ul>
       </div>
     </nav>

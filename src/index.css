@@ -455,3 +455,39 @@ input[type="text"]:focus::placeholder {
   font-weight: 400;
   padding: 10px;
 }
+.chat-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1400;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.chat-bubble {
+  display: flex;
+  align-items: center;
+}
+
+.chat-avatar {
+  margin-right: 5px;
+}
+
+.chat-avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+}
+
+
+
+.chat-message p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+  letter-spacing: 0.1vw;
+}
