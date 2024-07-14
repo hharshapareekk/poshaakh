@@ -49,36 +49,37 @@ $(document).ready(function () {
 
             let locationKey = [
                 {
-                    city: "Berlin",
-                    cityKey: 178087
+                    city: "Mumbai",
+                    cityKey: 1269744
                 },
                 {
-                    city: "London",
-                    cityKey: 328328
+                    city: "Chennai",
+                    cityKey: 204408
                 },
                 {
                     city: "Paris",
                     cityKey: 623
                 },
                 {
-                    city: "Moscow",
-                    cityKey: 294021
+                    city: "London",
+                    cityKey: 44418
                 },
                 {
-                    city: "Sydney",
-                    cityKey: 22889
+                    city: "New Delhi",
+                    cityKey: 202396
                 },
                 {
-                    city: "Shanghai",
-                    cityKey: 106577
+                    city: "Ahmedabad",
+                    cityKey: 1279241
                 },
                 {
-                    city: "Seoul",
-                    cityKey: 226081
+                    city: "New York",
+                    cityKey: 512858
                 },
+                
                 {
-                    city: "Auckland",
-                    cityKey: 252066
+                    city: "Kolkata",
+                    cityKey: 1275004
                 }
             ];
 

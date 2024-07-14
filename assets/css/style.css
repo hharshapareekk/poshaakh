@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700;800;900&display=swap");
+
 
 body {
-    font-family: "Quicksand", sans-serif;
+    font-family: "poppins", sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #333333;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    background-color: var(--color-lighter);
+    color: var(--color-darker);
+    background: #d53f41;
 
-    /* help from https://cssgradient.io/ */
-    background: rgb(151, 143, 205);
-    background: linear-gradient(90deg, rgba(151,143,205,1) 0%, rgb(204, 135, 185) 100%);
 }
 
 /* Navigation */
 #navbar {
-    background-color: #FFFCFB;
+    background-color: #dbd8d6;
     border-bottom: 1px solid #978FCD;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -65,10 +75,10 @@ body {
 
 .header-paragraph {
     color: #FFFCFB;
-    max-width: 395px;
-    display: block;
-    padding-bottom: 25px;
-    margin: 0 auto;
+    width: 395px;
+    display:contents;
+    padding: 10px;
+    margin: 40px;
 }
 /* Header */
 
@@ -81,6 +91,7 @@ body {
 
 .content-box {
     margin-top: 35px;
+    
 }
 
 .content-row {
@@ -105,9 +116,10 @@ body {
 }
 
 .disclaimer {
-    color: #978FCD;
-    font-size: 12px;
+    color: #333333;
+    font-size: 15px;
     font-weight: 400;
+    display:flex
 }
 
 @media (min-width: 992px) {
@@ -124,7 +136,7 @@ body {
         max-width: 320px;
     }
     .disclaimer-bottom {
-        display: none;
+        display:flex;
     }
 }
 
@@ -178,30 +190,9 @@ body {
 
 /* Footer */
 footer{
-    max-height: 70px;
-    background: rgb(151,143,205);
-    background: linear-gradient(90deg, rgba(151,143,205,1) 0%, rgba(204,135,185,1) 100%);
-    color: #FFFCFB;
-}
-
-.social-icons a img {
-    height: 20px;
-}
-
-.social-icons a {
-    margin-right: 40px;
-}
-
-.social-icons a:hover {
-    text-decoration: none;
-    color: transparent;
-}
-
-.social-icons {
-    width: fit-content;
-    float: left;
-    position: relative;
-    bottom: 5px;
+    max-height: 50px;
+    background: #d53f41;
+    color: #FFFFFF;
 }
 
 .copyrights {
@@ -242,7 +233,7 @@ footer{
 
 .square-hover {
     box-sizing: border-box;
-    border: 3px solid #CC87B9;
+    border: 3px solid #d53f41;
 }
 
 .weather {
@@ -300,7 +291,7 @@ footer{
 }
 
 .dark {
-    background-color: #978FCD;
+    background-color: #d53f41;
 }
 
 .line-hp {
@@ -494,7 +485,7 @@ footer{
         float: none!important;
     }
     .last-box {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
     .description {
@@ -571,7 +562,7 @@ footer{
 }
 
 .city-gallery-content {
-    height: 72px;
+    height: 150px;
     max-width: 290px;
     margin: 0 auto;
     overflow-x: auto;
@@ -586,8 +577,8 @@ footer{
 
 
 .city-gallery-content .city-name-img {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     margin-left: 20px;
 }
 
