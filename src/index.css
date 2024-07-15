@@ -677,3 +677,10 @@ input[type="text"]:focus::placeholder {
   max-width: 40%;
   max-height: 40%;
 }
+
+.pinfluence-heading{
+ margin-left: 300px;
+ margin-top: 40px;
+ margin-bottom: 30px;
+ letter-spacing: 10px;
+}
