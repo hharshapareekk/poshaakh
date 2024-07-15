@@ -659,21 +659,21 @@ input[type="text"]:focus::placeholder {
 
 
 .grid-item {
-  position: relative; /* Make each grid item relative */
+  position: relative; 
 }
 
 .overlay {
-  position: absolute; /* Make the overlay absolute */
-  top: 2vw; /* Position the overlay at the top */
-  left: 1vw; /* Position the overlay at the left */
-  width: 80%; /* Make the overlay full width */
-  height: 70%; /* Make the overlay full height */
-  display: flex; /* Center the overlay image */
+  position: absolute; 
+  top: 2vw; 
+  left: 1vw; 
+  width: 80%;
+  height: 70%; 
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .overlay img {
-  max-width: 40%; /* Make the overlay image responsive */
+  max-width: 40%;
   max-height: 40%;
 }

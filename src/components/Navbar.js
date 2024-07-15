@@ -28,6 +28,15 @@ const Navbar = () => {
         <li ref={li3}>
           <Link to="/gallery">Gallery</Link>
         </li>
+        <br></br>
+        <li ref={li3}>
+          <Link to="/delivery">SpeedX</Link>
+        </li>
+        <li ref={li3}>
+          <Link to="/sustainable">Eco Collective</Link>
+        </li>
+        
+
       </ul>
       <div className="logo" ref={logoRef}>
         <Link to="/">
@@ -35,21 +44,29 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="blog-link" ref={blogRef}>
-        <Link to="/sustainable">Sustainable Shopping</Link>
         <ul className="links">
-        <li ref={li3}>
-          <Link to="/delivery">Delivery</Link>
+        <li ref={li1}>
+        <Link to="/create">Home Decor Studio</Link>
         </li>
         <li ref={li1}>
-          
-          <Link to="/chat">Group Chat</Link>
+        <Link to="/create">Poshaakh Create</Link>
         </li>
         <li ref={li2}>
-          <Link to="/create">Poshaakh Create</Link>
+        <Link to="/">weather-to-wear</Link>
+        </li>
+        <li ref={li2}>
+        <Link to="/">Virtual Wardrobe</Link>
         </li>
         <li ref={li3}>
-          <Link to="/">weather-to-wear</Link>
+        <Link to="/pinfluence">Pinfluence</Link>
         </li>
+        <li ref={li3}>
+        <Link to="/pinfluence">Complexion Crafted</Link>
+        </li>
+        <li ref={li3}>
+          <Link to="/chat">Collab & Shop</Link>
+        </li>
+
         
       </ul>
       </div>

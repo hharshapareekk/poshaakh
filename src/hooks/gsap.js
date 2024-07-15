@@ -1,6 +1,6 @@
-import { useEffect } from "react";
 import gsap, { Expo } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useEffect } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -42,7 +42,7 @@ export const useGsapDownStagger = (arr, delay = 0) => {
         duration: 1.5,
         stagger: 0.1,
         ease: Expo.easeIn,
-        delay: delay,
+        delay: 0.7,
       }
     );
   }, []);
@@ -63,7 +63,7 @@ export const useGsapPhotoDropping = (arr) => {
         scale: 1,
         duration: 2,
         stagger: 0.2,
-        delay: 2.7,
+        delay:0.7,
         ease: Expo.easeInOut,
       }
     );

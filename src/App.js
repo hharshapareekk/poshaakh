@@ -9,6 +9,7 @@ import Gallery from "./components/Gallery";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import NotFound from "./components/NotFound";
+import Pinfluence from "./components/Pinfluence";
 import Sustainable from './components/Sustainable';
 import { useSmoothScroll } from "./hooks/useSmoothScroll";
 
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/sustainable" element={<Sustainable />} />
         <Route path="/create" element={<Create />} />
         <Route path="/delivery" element={<Delivery />} />
+        <Route path="/pinfluence" element={<Pinfluence />} />
         <Route path="/*" element={<NotFound />} needFullHeight={true} />
       </Routes>
       <Footer />
