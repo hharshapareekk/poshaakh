@@ -1,6 +1,13 @@
 import React, { useEffect, useState } from "react";
+import tshirt from "../images/Tshirt.jpg";
+import notebook from "../images/notebook.png";
+import phonecase from "../images/phonecase.png";
+import pillowcase from "../images/pillowcase.png";
 import pod from "../images/pod.png";
-
+import totebag from "../images/totebag.png";
+import postCard from "../images/postcard.png";
+import bottle from "../images/bottle.png";
+import frame from "../images/frame.png";
 const Create = () => {
   const [uploaded, setUploaded] = useState(false);
   const [fileName, setFileName] = useState("");
@@ -29,13 +36,13 @@ const Create = () => {
   };
 
   const generateProductPreview = async () => {
-    const token = 'YOUR_vKeQ3KdGJQHcIDH9sf9722ej7qaynWOrDdBrvjYI';
-    const productId = '3054'; // Replace with the product ID
+    const token = "YOUR_vKeQ3KdGJQHcIDH9sf9722ej7qaynWOrDdBrvjYI";
+    const productId = "3054"; // Replace with the product ID
     const imageData = uploadedImageBase64;
 
     const headers = {
-      'Authorization': `Bearer ${token}`,
-      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+      "Content-Type": "application/json",
     };
 
     const data = {
@@ -46,11 +53,14 @@ const Create = () => {
     };
 
     try {
-      const response = await fetch('https://api.printful.com/v1/mockup/generate', {
-        method: 'POST',
-        headers,
-        body: JSON.stringify(data),
-      });
+      const response = await fetch(
+        "https://api.printful.com/v1/mockup/generate",
+        {
+          method: "POST",
+          headers,
+          body: JSON.stringify(data),
+        }
+      );
       const previewUrl = await response.json().preview_url;
       setPreviewUrl(previewUrl);
     } catch (error) {
@@ -134,15 +144,109 @@ const Create = () => {
             </ul>
           </nav>
 
-          {previewUrl && (
-            <div>
-              <img src={previewUrl} alt="Product Preview" />
+          <div class="grid-container">
+            <div class="grid-item">
+              <img
+                src={tshirt}
+                alt="Product Preview"
+                width={400}
+                height={400}
+              />
+              <div class="overlay">
+                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+              </div>
             </div>
-          )}
+            <div class="grid-item">
+              <img
+                src={totebag}
+                alt="Product Preview"
+                width={400}
+                height={400}
+              />
+              <div class="overlay">
+                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+              </div>
+            </div>
+            <div class="grid-item">
+              <img
+                src={phonecase}
+                alt="Product Preview"
+                width={400}
+                height={400}
+              />
+               <div class="overlay">
+                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+              </div>
+            </div>
+            <div class="grid-item">
+              <img
+                src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod}
+                alt="Product Preview"
+                width={400}
+                height={400}
+              />
+            </div>
+            <div class="grid-item">
+              <img
+                src={notebook}
+                alt="Product Preview"
+                width={400}
+                height={400}
+              />
+               <div class="overlay">
+                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+              </div>
+            </div>
+            <div class="grid-item">
+              <img
+                src={pillowcase}
+                alt="Product Preview"
+                width={400}
+                height={400}
+              />
+              <div class="overlay">
+                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+              </div>
+            </div>
+            <div class="grid-item">
+              <img
+                src={postCard}
+                alt="Product Preview"
+                width={400}
+                height={400}
+              />
+               <div class="overlay">
+                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+              </div>
+
+            </div>
+            <div class="grid-item">
+              <img
+                src={bottle}
+                alt="Product Preview"
+                width={400}
+                height={400}
+              />
+              <div class="overlay">
+                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+              </div>
+            </div>
+            <div class="grid-item">
+              <img
+                src={frame}
+                alt="Product Preview"
+                width={400}
+                height={400}
+              />
+              <div class="overlay">
+                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+              </div>
+            </div>
+          </div>
 
           <button className="change-image-btn" onClick={handleReset}>
             Change
-            </button>
+          </button>
         </div>
       )}
     </section>

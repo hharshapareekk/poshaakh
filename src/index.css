@@ -651,3 +651,29 @@ input[type="text"]:focus::placeholder {
   margin-top:10px ;
   border-radius: 5px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+
+.grid-item {
+  position: relative; /* Make each grid item relative */
+}
+
+.overlay {
+  position: absolute; /* Make the overlay absolute */
+  top: 2vw; /* Position the overlay at the top */
+  left: 1vw; /* Position the overlay at the left */
+  width: 80%; /* Make the overlay full width */
+  height: 70%; /* Make the overlay full height */
+  display: flex; /* Center the overlay image */
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay img {
+  max-width: 40%; /* Make the overlay image responsive */
+  max-height: 40%;
+}

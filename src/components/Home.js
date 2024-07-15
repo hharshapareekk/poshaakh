@@ -32,9 +32,6 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <Featured />
-      <About />
-      <Gallery />
       <div className="chat-container">
         <div className="chat-bubble">
           <div className="chat-avatar">
