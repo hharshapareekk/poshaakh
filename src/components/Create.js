@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import tshirt from "../images/Tshirt.jpg";
+import bottle from "../images/bottle.png";
+import frame from "../images/frame.png";
 import notebook from "../images/notebook.png";
 import phonecase from "../images/phonecase.png";
 import pillowcase from "../images/pillowcase.png";
 import pod from "../images/pod.png";
-import totebag from "../images/totebag.png";
 import postCard from "../images/postcard.png";
-import bottle from "../images/bottle.png";
-import frame from "../images/frame.png";
+import totebag from "../images/totebag.png";
 const Create = () => {
   const [uploaded, setUploaded] = useState(false);
   const [fileName, setFileName] = useState("");
@@ -153,7 +153,12 @@ const Create = () => {
                 height={400}
               />
               <div class="overlay">
-                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+                <img
+                  src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod}
+                />
+              </div>
+              <div class="textbox-container">
+                <p>T-Shirt</p>
               </div>
             </div>
             <div class="grid-item">
@@ -164,7 +169,12 @@ const Create = () => {
                 height={400}
               />
               <div class="overlay">
-                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+                <img
+                  src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod}
+                />
+              </div>
+              <div class="textbox-container">
+                <p>Tote Bag</p>
               </div>
             </div>
             <div class="grid-item">
@@ -174,8 +184,13 @@ const Create = () => {
                 width={400}
                 height={400}
               />
-               <div class="overlay">
-                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+              <div class="overlay">
+                <img
+                  src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod}
+                />
+              </div>
+              <div class="textbox-container">
+                <p>Phone Case</p>
               </div>
             </div>
             <div class="grid-item">
@@ -185,6 +200,9 @@ const Create = () => {
                 width={400}
                 height={400}
               />
+              <div class="textbox-container">
+                <p>Sticker</p>
+              </div>
             </div>
             <div class="grid-item">
               <img
@@ -193,8 +211,13 @@ const Create = () => {
                 width={400}
                 height={400}
               />
-               <div class="overlay">
-                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+              <div class="overlay">
+                <img
+                  src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod}
+                />
+              </div>
+              <div class="textbox-container">
+                <p>Spiral notebook</p>
               </div>
             </div>
             <div class="grid-item">
@@ -205,7 +228,12 @@ const Create = () => {
                 height={400}
               />
               <div class="overlay">
-                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+                <img
+                  src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod}
+                />
+              </div>
+              <div class="textbox-container">
+                <p>Pillow Cover</p>
               </div>
             </div>
             <div class="grid-item">
@@ -215,10 +243,14 @@ const Create = () => {
                 width={400}
                 height={400}
               />
-               <div class="overlay">
-                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+              <div class="overlay">
+                <img
+                  src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod}
+                />
               </div>
-
+              <div class="textbox-container">
+                <p>Post Card</p>
+              </div>
             </div>
             <div class="grid-item">
               <img
@@ -228,24 +260,29 @@ const Create = () => {
                 height={400}
               />
               <div class="overlay">
-                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+                <img
+                  src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod}
+                />
+              </div>
+              <div class="textbox-container">
+                <p>Bottle</p>
               </div>
             </div>
             <div class="grid-item">
-              <img
-                src={frame}
-                alt="Product Preview"
-                width={400}
-                height={400}
-              />
+              <img src={frame} alt="Product Preview" width={400} height={400} />
               <div class="overlay">
-                <img src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod} />
+                <img
+                  src={uploadedImage ? URL.createObjectURL(uploadedImage) : pod}
+                />
+              </div>
+              <div class="textbox-container">
+                <p>Photo Frame</p>
               </div>
             </div>
           </div>
 
           <button className="change-image-btn" onClick={handleReset}>
-            Change
+            Change Image
           </button>
         </div>
       )}

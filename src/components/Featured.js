@@ -4,7 +4,7 @@ import {
   useGsapFeatureRightShutterUnveil,
 } from "../hooks/gsap";
 import image1 from '../images/featured-1.png';
-import image2 from '../images/featured-2.png';
+import image2 from '../images/featured-2.jpeg';
 
 const Featured = () => {
   const featureRef = useRef(null);
@@ -32,10 +32,10 @@ const Featured = () => {
         <div className="feature-r">
           <span className="feature-text">Old Money Aesthetic</span>
           <img
-            src={image2}
-            alt="Old-Money-Aesthetic"
+            src = {image2}
+            alt="barbie-core"
             width={400}
-            height={400}
+            height={480}
           />
           <span
             className="feature-shutter-r"

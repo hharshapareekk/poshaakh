@@ -178,7 +178,7 @@ section {
 
 .features {
   display: grid;
-  grid-template-columns: 30% auto;
+  grid-template-columns: 46% auto;
   align-items: center;
   gap: 10rem;
 }
@@ -189,7 +189,7 @@ section {
 }
 
 .features img {
-  width: 100%;
+  width: 80%;
 }
 
 .feature-l,
@@ -607,6 +607,7 @@ input[type="text"]:focus::placeholder {
   border-radius: 10px;
   cursor: pointer;
   font-size: 20px;
+  margin-top: 80px;
 }
 
 .change-image-btn:hover {
@@ -683,4 +684,15 @@ input[type="text"]:focus::placeholder {
  margin-top: 40px;
  margin-bottom: 30px;
  letter-spacing: 10px;
+}
+.textbox-container {
+  background-color: #d53f41;
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
