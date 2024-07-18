@@ -12,3 +12,5 @@ Poshaak is an innovative fashion platform that prioritizes blending
         As a sustainable business, we focus on ensuring our operations are profitable while maintaining our commitment to quality, customer satisfaction, and social responsibility. By achieving profitability, we can continue to invest in our platform, expand our offerings, and make a positive impact on the fashion industry.
         <br></br>
         Explore Poshaak and discover a vibrant tapestry of styles that honor tradition while looking towards the future.
+<h1>Home Page</h1>
+
