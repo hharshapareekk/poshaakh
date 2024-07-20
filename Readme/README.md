@@ -13,7 +13,7 @@ Poshaak is an innovative fashion platform that prioritizes blending
         <br></br>
         Explore Poshaak and discover a vibrant tapestry of styles that honor tradition while looking towards the future.
 <h1>Home Page</h1>
-<img src="homepage.png" alt="Image 1 description">
+<img src="homepage.png" alt="Homepage">
 <img src="image2_url_here" alt="Image 2 description">
 <img src="image3_url_here" alt="Image 3 description">
 
